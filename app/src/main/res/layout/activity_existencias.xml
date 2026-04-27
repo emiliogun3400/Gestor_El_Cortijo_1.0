@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Monitor de Existencias"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Niveles de stock críticos para compras de emergencia"
+        android:textSize="14sp"
+        android:gravity="center"
+        android:layout_marginBottom="30dp"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="🔴 Tomate: 1 caja restante"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#F44336"
+        android:layout_marginBottom="15dp"
+        android:padding="10dp"
+        android:background="#FFEBEE"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="🔴 Carne de Res: 2 kg restantes"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#F44336"
+        android:layout_marginBottom="15dp"
+        android:padding="10dp"
+        android:background="#FFEBEE"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="🟡 Queso: 5 paquetes"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#E65100"
+        android:layout_marginBottom="30dp"
+        android:padding="10dp"
+        android:background="#FFF3E0"/>
+
+    <Button
+        android:id="@+id/btnVolverExistencias"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Volver al Menú" />
+
+</LinearLayout>

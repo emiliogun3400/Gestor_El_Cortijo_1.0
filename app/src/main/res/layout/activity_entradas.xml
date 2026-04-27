@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Registro de Entradas"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="30dp"
+        android:layout_marginTop="20dp"/>
+
+    <EditText
+        android:id="@+id/etInsumo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nombre del insumo (Ej. Tomate, Carne)"
+        android:inputType="text"
+        android:layout_marginBottom="15dp"/>
+
+    <EditText
+        android:id="@+id/etCantidad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Cantidad (Ej. 10 kg, 5 cajas)"
+        android:inputType="text"
+        android:layout_marginBottom="15dp"/>
+
+    <EditText
+        android:id="@+id/etFechaCaducidad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Fecha de caducidad (DD/MM/AAAA)"
+        android:inputType="date"
+        android:layout_marginBottom="30dp"/>
+
+    <Button
+        android:id="@+id/btnGuardarEntrada"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Guardar en Inventario"
+        android:backgroundTint="#4CAF50"/>
+
+</LinearLayout>
